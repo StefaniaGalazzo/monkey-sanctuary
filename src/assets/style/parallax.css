@@ -1,0 +1,96 @@
+.animation,
+.animation_layer,
+#parallax-container {
+  background-color: var(--light-green);
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+.parallax {
+  position: fixed;
+}
+.animation-layer {
+  margin-top: 250px;
+  width: 100%;
+}
+#logo-detailed {
+  max-width: 300px;
+  /* filter: drop-shadow(2px 2px 0px rgba(55, 14, 0, 0.8)); */
+}
+#bck {
+  top: -250px;
+  height: 110%;
+  width: 110%;
+  position: relative;
+}
+
+#clouds {
+  height: 100px;
+  top: -150px;
+}
+#sun {
+  width: 300px;
+  top: -110px;
+  margin-left: 32%;
+}
+#floor-bck,
+#floor-middle {
+  width: 110%;
+  left: -5%;
+  bottom: -200px;
+}
+#vivid {
+  bottom: -150px;
+  width: 120%;
+  left: -10%;
+}
+#light {
+  height: 110%;
+  width: 110%;
+  bottom: -100px;
+  left: -5%;
+}
+
+#darkLeft,
+#darkRight,
+#dark {
+  width: fit-content;
+  height: 120%;
+  bottom: -150px;
+}
+
+#darkLeft {
+  left: -5%;
+}
+#darkRight {
+  right: -5%;
+}
+#minor-dark {
+  height: 110%;
+  width: 125%;
+  left: -15%;
+  bottom: -100px;
+}
+
+.section {
+  height: 100%;
+  padding: 8rem;
+  text-align: center;
+  z-index: -1;
+  position: relative;
+}
+
+.bg-labirinth {
+  background-image: linear-gradient(
+      var(--light-green),
+      #ddefceb2,
+      var(--light-green)
+    ),
+    url(../svg/jungle-labyrinth.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
